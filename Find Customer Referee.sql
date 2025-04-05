@@ -15,9 +15,9 @@ Return the result table in any order.
 
 # MySQL query statement below
 
-Select name 
-From Customer 
-where referee_id IS Null OR referee_id = '1'
+SELECT name 
+FROM customer 
+WHERE referee_id != 2 OR referee_id IS NULL;
 
 # input 
 
